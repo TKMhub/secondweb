@@ -1,0 +1,9 @@
+export {default as Topbar} from "./topbar";
+export {default as Home} from "./home";
+export {default as Button} from "./button";
+export {default as About} from "./about";
+export {default as Blog} from "./blog";
+export {default as Skills} from "./skills";
+export {default as Contact} from "./contact";
+export {default as Footbar} from "./footbar";
+export {default as Tmain} from "./tmain";

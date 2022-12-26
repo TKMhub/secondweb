@@ -1,0 +1,10 @@
+*{
+    zoom: 0.97;
+}
+
+
+@media screen and (max-width: 1200px) {
+    *{
+        zoom: 1;
+    }
+}

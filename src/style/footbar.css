@@ -1,0 +1,11 @@
+.end {
+  border-top: 1px solid #4d4d4d;
+  background-color: #4d4d4d;
+}
+.end h1 {
+  text-align: center;
+  font-size: 130%;
+  padding: 20px 0;
+  color: aqua;
+}
+/*# sourceMappingURL=footbar.css.map */

@@ -1,0 +1,192 @@
+body {
+  font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff;
+  line-height: 1.9;
+  text-align: left;
+
+}
+
+header {
+  position: fixed; /* ヘッダーを固定する */
+  top: 0; /* 上部から配置の基準位置を決める */ 
+  left: 0; /* 左から配置の基準位置を決める */ 
+  width: 100%; /* ヘッダーの横幅を指定する */
+  height: 35px; /* ヘッダーの高さを指定する */
+  color: #fff; /* フォントの色を指定する */
+  text-decoration: none;
+} 
+
+h1 {
+  position: fixed;
+  margin: 0;
+  color: #fff;
+  top: 30px;
+  left: 50px;
+}
+
+.container {
+  position: relative;
+  top: 80px;
+  left: -10px;
+}
+
+.container p {
+  position: relative;
+  margin-bottom: 10px;
+  left: 65px;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+.mainLogo{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  
+}
+
+
+.nav-header {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li a { 
+  color: #fff; /* フォントの色を指定する */
+  text-decoration: none;
+  justify-content: flex-end;
+  padding-top: 60px;
+}
+
+.nav-list li{
+  font-size: 16px;
+  padding: 0 25px;
+  letter-spacing: 3px;
+}
+
+.nav-list li:hover{
+  text-decoration: underline;
+}
+
+nav {
+  display: block;
+  width: 400px;
+  position: fixed;
+  background-color: #ffffff;
+  top: 0;
+  left: -300px;
+  bottom: 0;
+  transition: all 0.5s;
+  z-index: 3;
+  opacity: 0;
+}
+
+.open nav {
+  left: 0;
+  opacity: 1;
+}
+
+nav .inner {
+  padding: 25px;
+}
+nav .inner ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav .inner ul li {
+  margin: 0;
+  border-bottom: 1px solid #333;
+  /* // background-color: aqua; */
+}
+
+nav .inner ul li a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  padding: 1rem;
+  transition-duration: 0.2s;
+}
+
+nav .inner ul li a:hover {
+  background-color: #e4e4e4;
+}
+
+.toggle-btn{
+  display: block;
+  position: fixed;
+  top: 40px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.toggle-btn span{
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.5s;
+  border-radius: 4px;
+}
+
+.toggle-btn span:nth-child(1){
+  top: 4px;
+}
+
+.toggle-btn span:nth-child(2){
+  top: 19px;
+}
+
+.toggle-btn span:nth-child(3){
+  bottom: 4px;
+}
+
+.open .toggle-btn span {
+  background-color: #fff;
+}
+
+.open .toggle-btn span:nth-child(1) {
+  transform: translateY(20px) rotate(315deg);
+}
+
+.open .toggle-btn span:nth-child(2) {
+  /* transform: translateY(10px) rotate(-395deg); */
+  opacity: 0;
+}
+
+.open .toggle-btn span:nth-child(3) {
+  transform: translateY(-10px) rotate(-315deg);
+}
+
+#mask {
+  display: none;
+  transition: all 0.5s;
+}
+
+.open #mask {
+  display: block;
+  background-color: rgb(37, 44, 43);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  opacity: 0.7;
+  cursor: pointer;
+}
