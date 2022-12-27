@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d955c87.css",
+    "main.js": "/static/js/main.46143d2c.js",
+    "static/js/787.e647626a.chunk.js": "/static/js/787.e647626a.chunk.js",
+    "static/media/IMG_1520.PNG": "/static/media/IMG_1520.31aeec2dbcb707159753.PNG",
+    "static/media/React.png": "/static/media/React.81ed438b18e24116794d.png",
+    "static/media/kingyo.jpeg": "/static/media/kingyo.0b3243aaf092368b58ed.jpeg",
+    "static/media/water.png": "/static/media/water.c80c1fc4503d11e696c5.png",
+    "static/media/GraphQL.png": "/static/media/GraphQL.0fed447ce4ed74374bdb.png",
+    "static/media/ggg.jpeg": "/static/media/ggg.3daea900b0acb76c13e0.jpeg",
+    "static/media/Vuejs.png": "/static/media/Vuejs.1eafbd69d7822a229427.png",
+    "static/media/HTMLCSSJS.png": "/static/media/HTMLCSSJS.67a7bb61a2da011f03b8.png",
+    "static/media/wordpress.png": "/static/media/wordpress.b006256742a4938a37d4.png",
+    "static/media/Nextjs.png": "/static/media/Nextjs.6db19b31cc0a2f63cff4.png",
+    "static/media/TKM.png": "/static/media/TKM.8aca9252ffe1b52c2fb3.png",
+    "static/media/TKMsvg.svg": "/static/media/TKMsvg.1a3f3b809d03ce38e41df3dd6e4bfc98.svg",
+    "index.html": "/index.html",
+    "main.4d955c87.css.map": "/static/css/main.4d955c87.css.map",
+    "main.46143d2c.js.map": "/static/js/main.46143d2c.js.map",
+    "787.e647626a.chunk.js.map": "/static/js/787.e647626a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d955c87.css",
+    "static/js/main.46143d2c.js"
+  ]
+}
